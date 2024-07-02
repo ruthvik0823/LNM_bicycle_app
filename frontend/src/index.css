@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer base{
+    body{
+       @apply text-white bg-black font-semibold;
+    }
+}
+
+@layer components{
+    .inp{
+        @apply px-2 py-2 w-full rounded text-black bg-boxcolor border border-spotify-green;
+    }
+    .label{
+        @apply text-white font-semibold
+    }
+}
+
